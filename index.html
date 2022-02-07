@@ -6,27 +6,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Odin's Recipes</title>
   <style>
-        img {
+    body {
+      background-color: antiquewhite;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.8rem;
+      padding: 0 10vw;
+    }
+    .title{
+      text-align: center;
+      font-size: 2rem;
+      font-variant:small-caps;
+    }
+    .subtitle{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: -20px;
+    }
+    ul{list-style:square;
+      }
+    .nav li{
+      display: inline-block;
+      text-align: center;
+      margin: 10% 2%;
+      font: 1rem small-caps bolder, sans-serif;
+    }
+    li strong {
+      color: saddlebrown;
+    }
+    img {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 70%;
-      height: 70%;
+      max-width: 80vw;
+      max-height: 80vh;
 }
+    p.description{
+      text-align: justify;
+}
+    .recetas{
+      font-size: 1rem;
+      color: red;
+      margin: 2% -5%;
+      
+      
+    }
   </style>
+
 </head>
 <body>
-  <h1>Odin's Recipes - Dominican Cuisine</h1>
+  <h1 class="title">ODIN'S RECIPES</h1>
+  <h2 class="subtitle">Dominican Cuisine</h2>
   <img src="./img/index.jpeg">
 
   <h2>Dominican Cuisine Heritage</h2>
   <p>The Dominican Republic was formerly a Spanish colony. Many Spanish traits are still present in the island. Many traditional Spanish dishes have found a new home in the Dominican Republic, some with a twist. African and Taíno dishes still hold strong, some of them unchanged.</p>
   <p>All or nearly all food groups are accommodated in typical Dominican cuisine, as it incorporates meat or seafood; grains, especially rice, corn (native to the island), and wheat; vegetables, such as beans and other legumes, potatoes, yuca, and plantains; dairy products, especially milk and cheese; and fruits, such as oranges, bananas, and mangos. However, there is heaviest consumption of starches and meats, and least of dairy products and non-starchy vegetables.</p>
   <p>Sofrito, a sautéed mix including local herbs and spices, is used in many dishes. Throughout the south-central coast bulgur, or whole wheat, is a main ingredient in quipes and tipili, two dishes brought by Levantine Middle Eastern immigrants. Other favorite foods and dishes include chicharrón, yautía, pastelitos or empanadas, batata (sweet potato), pasteles en hoja (ground roots pockets), chimichurris, plátanos maduros (ripe plantain), yuca con mojo (boiled yuca/cassava) and tostones/fritos (fried plantains).</p>
+
+<h2>Let's have a taste of some of the most traditional Dominican recipes:</h2>
   <ul>
-    <li><a href="./recipes/mangu.html"> Mangú</a></li>
-    <li><a href="./recipes/bandera.html"> La Bandera</a></li>
-    <li><a href="./recipes/habidulce.html"> Habichuelas con Dulce</a></li>
+    <li class="recetas"><a href="./recipes/mangu.html"> Mangú</a></li>
+    <li class="recetas"><a href="./recipes/bandera.html"> La Bandera</a></li>
+    <li class="recetas"><a href="./recipes/habidulce.html"> Habichuelas con Dulce</a></li>
 
 </ul>
 </body>
